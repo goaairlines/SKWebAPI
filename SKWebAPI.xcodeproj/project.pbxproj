@@ -145,7 +145,6 @@
 				2684F1791E95AA6900536DCC /* Frameworks */,
 				2684F17A1E95AA6900536DCC /* Headers */,
 				2684F17B1E95AA6900536DCC /* Resources */,
-				26A2E62E1EEB27AB005C25AC /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -164,7 +163,6 @@
 				2684F1DE1E95ABD400536DCC /* Frameworks */,
 				2684F1DF1E95ABD400536DCC /* Headers */,
 				2684F1E01E95ABD400536DCC /* Resources */,
-				26A2E62F1EEB27CB005C25AC /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -183,7 +181,6 @@
 				2684F2021E95ABD600536DCC /* Frameworks */,
 				2684F2031E95ABD600536DCC /* Headers */,
 				2684F2041E95ABD600536DCC /* Resources */,
-				26A2E6301EEB27D8005C25AC /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -209,6 +206,7 @@
 					};
 					2684F1C21E95ABD400536DCC = {
 						DevelopmentTeam = U63DWZL52M;
+						LastSwiftMigration = 1000;
 					};
 					2684F1E61E95ABD600536DCC = {
 						DevelopmentTeam = U63DWZL52M;
@@ -257,51 +255,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		26A2E62E1EEB27AB005C25AC /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		26A2E62F1EEB27CB005C25AC /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		26A2E6301EEB27D8005C25AC /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2684F1781E95AA6900536DCC /* Sources */ = {
@@ -528,7 +481,7 @@
 				PRODUCT_NAME = SKWebAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -555,7 +508,7 @@
 				PRODUCT_NAME = SKWebAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
