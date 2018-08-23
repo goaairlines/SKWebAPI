@@ -83,4 +83,6 @@ public enum Endpoint: String {
     case usersList = "users.list"
     case usersSetActive = "users.setActive"
     case usersSetPresence = "users.setPresence"
+    case usersProfileSet = "users.profile.set"
+    case usersProfileGet = "users.profile.get"
 }
