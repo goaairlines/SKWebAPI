@@ -79,6 +79,7 @@ public enum Endpoint: String {
     case starsRemove = "stars.remove"
     case teamInfo = "team.info"
     case usersGetPresence = "users.getPresence"
+    case usersIdentity = "users.identity"
     case usersInfo = "users.info"
     case usersList = "users.list"
     case usersSetActive = "users.setActive"

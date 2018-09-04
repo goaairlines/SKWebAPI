@@ -1118,6 +1118,15 @@ extension WebAPI {
             failure?(error)
         }
     }
+    
+    public func getUserIdentity(success: ((_ userIdentity: [String: Any]?) -> Void)?, failure: FailureClosure?) {
+        let parameters: [String: Any] = ["token": token]
+        networkInterface.request(.usersIdentity, parameters: parameters, successClosure: {(response) in
+            success?(response as [String: Any])
+        }) {(error) in
+            failure?(error)
+        }
+    }
 }
 
 // MARK: - Conversations
